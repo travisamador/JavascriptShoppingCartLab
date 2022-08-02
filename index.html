@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+      crossorigin="anonymous"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <img
+          class="col-4"
+          src="https://www.meijer.com/content/dam/meijer/product/0002/84/0051/64/0002840051646_0_A1C1_0600.png"
+        />
+        <img
+          class="col-4"
+          src="https://i5.walmartimages.com/asr/83921438-6362-4ed0-9bd9-dba8d926ad5f.29ac552f0a3a3d083809c9493d58771e.jpeg?odnHeight=612&odnWidth=612&odnBg=FFFFFF"
+        />
+        <img
+          class="col-4"
+          src="https://i5.walmartimages.com/asr/1fdcb9a7-aa97-4a28-8326-399d8259c0c5.c20caad0737f4e5e3ca5041d818b8d47.jpeg?odnHeight=612&odnWidth=612&odnBg=FFFFFF"
+        />
+      </div>
+
+      <div class="row">
+        <button
+          class="btn btn-primary col-4"
+          onclick="addToCart('Doritos', 1.75)"
+        >
+          Add Doritos $1.75
+        </button>
+        <button
+          class="btn btn-primary col-4"
+          onclick="addToCart('Red Bull', 4.25)"
+        >
+          Add Red Bull $4.25
+        </button>
+        <button
+          class="btn btn-primary col-4"
+          onclick="addToCart('Sourpatch Kids', 2.00)"
+        >
+          Add Sourpatch Kids $2.00
+        </button>
+      </div>
+
+      <div class="row">
+        <img
+          class="col-4"
+          src="https://www.meijer.com/content/dam/meijer/product/0001/20/0000/13/0001200000131_0600.png"
+        />
+        <img
+          class="col-4"
+          src="https://i5.walmartimages.com/asr/ceaefb20-66fd-4e8d-afa4-721bd148be50_1.caca1089569b0608419aeab7d1ec7a73.jpeg?odnHeight=612&odnWidth=612&odnBg=FFFFFF"
+        />
+        <img
+          class="col-4"
+          src="https://i5.walmartimages.com/asr/51106d25-bda6-4612-aa49-68db90d69fa5_1.3f18b9c6050964ef909064ee5c67a9c9.jpeg?odnHeight=612&odnWidth=612&odnBg=FFFFFF"
+        />
+      </div>
+
+      <div class="row">
+        <button
+          class="btn btn-primary col-4"
+          onclick="addToCart('Mountain Dew', 2.25)"
+        >
+          Add Mountain Dew $2.25
+        </button>
+        <button
+          class="btn btn-primary col-4"
+          onclick="addToCart('KitKat', 0.99)"
+        >
+          Add KitKat $0.99
+        </button>
+        <button
+          class="btn btn-primary col-4"
+          onclick="addToCart('Skittles', 0.75)"
+        >
+          Add Skittles $0.75
+        </button>
+      </div>
+
+      <button class="btn btn-danger col-4 mt-2 offset-4" onclick="viewCart()">
+        Checkout
+      </button>
+    </div>
+
+    <script src="script.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
